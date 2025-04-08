@@ -10,7 +10,7 @@ public class Principal {
         Calculadora calculadora = new Calculadora();
         while (!opcao.equals("9")) {
             opcao = JOptionPane.showInputDialog("1 - Leitura \n2 - Adicao\n3 - Subtracao \n4 - Multiplicação \n5 - Divisao \n9 - Sair");
-switch (Integer.parseInt(opcao)) {
+            switch (Integer.parseInt(opcao)) {
                 case 1:
                     calculadora.setValorA(Double.parseDouble(JOptionPane.
                             showInputDialog("Digite o valor A")));
